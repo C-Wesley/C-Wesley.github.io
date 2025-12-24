@@ -1,0 +1,280 @@
+/* COLOR SCHEME: Tech Office */
+
+header {
+  color: #002c54 ;
+  background-color: #54b6dd ;
+  background-image: url(header_img.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0; 
+}
+
+nav {
+  color: #002c54 ;
+  background-color: #b3e0ff;
+  padding:5px 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  box-shadow: 0 10px 5px -5px #be1d2e;
+  position: relative;
+}
+
+nav a {
+  color: #002c54  ;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+main {
+  color: #002c54 ;
+  background-color: #FFFFFF;
+  padding: 10px;
+  z-index: 0;
+  overflow: auto;
+}
+
+main a {
+  color: #002c54 ;
+}
+
+footer {
+  color: #002c54 ;
+  background-color: #54b6dd ;
+  padding: 5px 10px;
+  font-size: 10pt;
+  font-style: italic;
+  border-radius: 0 0 10px 10px;
+}
+
+footer a {
+  color: #002c54 ;
+}
+
+.details {
+  color: #002c54;
+  background-color: #be1d2e;
+  float: right;
+  padding: 5px 10px;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
+body {
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  background-color:#002c54;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 42pt;
+  line-height: 36pt;
+  font-weight: lighter;
+}
+
+h2 {
+  margin: 0;
+  padding: 0 10px 5px;
+  font-size: 18pt;
+  line-height: 22pt;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 24pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+#wrapper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.experience h4 {
+  font-size: 18pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.experience .title {
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.experience .dates {
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  float: right;
+}
+
+.experience .description {
+  font-size: 11pt;
+}
+
+.experience ul {
+  margin: 0;
+}
+
+.experience .responsibilities {
+  font-size: 10pt;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -ms-column-count: 2;
+}
+
+.experience, .school {
+  border-left: 10px solid #002c54 ;
+  border-right: 1px dashed #002c54 ;
+  border-top: 1px dashed #002c54 ;
+  border-bottom: 1px dashed #002c54 ;
+  margin: 20px;
+  padding: 5px 10px;
+  overflow: auto;
+}
+
+.school img {
+  float: left;
+}
+
+.school h3 {
+  margin: 0 0 0 120px;
+}
+
+.school h4 {
+  font-size: 14pt;
+  font-weight: lighter;
+  margin: 0 0 0 120px;
+}
+
+.school ul {
+  margin: 0 0 0 120px;
+}
+
+.logo1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#images{
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery figure {
+  margin: 10px 20px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-size: 11pt;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+  background-color: #be1d2e;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.gallery img:hover {
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 5px 5px 10px #002c54 ;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.gallery img {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+main table {
+  border: 1px solid #be1d2e;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main td {
+  border: 1px solid #be1d2e;
+  padding: 5px;
+}
+
+main th {
+  color: #ffffff;
+  background-color: #be1d2e;
+  border: 1px solid #be1d2e;
+  padding: 5px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  display: block;
+  width: 300px;
+  margin-bottom: 5px;
+  margin-left: 150px;
+}
+
+textarea {
+  height: 75px;
+}
+
+.link-container {
+  padding: 10px 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+.link-container a
+{
+    flex-grow: 1;
+}
+
+ul {
+  padding: 0;
+}
